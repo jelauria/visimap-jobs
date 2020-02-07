@@ -1,0 +1,147 @@
+html, body {
+    background-color: #F4F7F5;
+    color: #08090A;
+}
+
+img {
+    width: 100%;
+}
+
+* {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.col-6 {
+    font-weight: bold;  
+}
+
+.container {
+    padding: 20px; 
+}
+#hello {
+   margin-top: 15px; 
+    height: 60px; 
+    font-size: 25px; 
+    border: 3px solid; 
+    border-radius: 3px; 
+    background-color: #A7A2A9;
+    color: #08090A;
+}
+
+#wat {
+    margin-top: 15px; 
+}
+
+#font {
+    float: center;
+    margin-top: 20px; 
+    height: 75px;
+    width: 200px;
+    font-size: 25px;  
+    border: 3px solid; 
+    border-radius: 3px; 
+    background-color: white;
+    color: #08090A;
+}
+
+#style {
+    float: right;
+    height: 75px;
+    width: 200px;
+    font-size: 25px;
+    height: 75px;
+    width: 200px;   
+    border: 3px solid; 
+    border-radius: 3px; 
+    background-color: white;
+    color: #08090A;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    font-size: 350%; 
+}
+h2 {
+    font-size: 300%; 
+    padding-bottom: 15px; 
+}
+h3 {
+    font-weight: bold; 
+    font-size: 250%; 
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 175%; 
+}
+
+h6 {
+    color: gray;
+    font-size: 150%; 
+}
+
+body {
+    font-size: 160%; 
+}
+
+#job {
+    padding-top: 15px; 
+    font-size: 20px; 
+}
+
+#location {
+    padding-top: 15px; 
+    font-size: 20px; 
+}
+
+#apply {
+    margin-top: 15px; 
+    height: 60px; 
+    font-size: 25px; 
+    border: 3px solid; 
+    border-radius: 3px; 
+    background-color: #A7A2A9;
+    color: #08090A;
+}
+
+#job-1, #job-2, #job-3 {
+    padding-bottom: 25px; 
+    text-align: inherit;
+    width: 275px;
+}
+
+.indeed-job-page-navigation {
+    text-align: center;
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    #title {
+        padding-bottom: 15px; 
+    }
+
+   #job-1, #job-2, #job-3 {
+
+       text-align: inherit;
+       width: 275px;
+   }
+
+   #main-job {
+    margin-right: 100%;
+    width: 300px;  
+   }
+
+   #font {
+    margin-left: 15px; 
+    height: 75px;
+    width: 175px;
+   }
+
+  
+}
