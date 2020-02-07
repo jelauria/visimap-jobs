@@ -8,11 +8,12 @@ import MainListing from './components/MainListing'
 import ListingsNavigation from './components/ListingsNavigation'
 import MapsTitle from './components/MapTitle'
 import LocationsMap from './components/LocationsMap'
+import { googleKey, adzunaID, adzunaKey } from './apiInfo.json'
 import { Helmet } from 'react-helmet'
 
-const ADZUNA_ID = 'd4b1d5f1'
-const ADZUNA_KEY = '135e21e38100598c1a2b4b262e61d01f'
-const GOOGLE_KEY = 'AIzaSyBNJDz4HlA1RvD41b6v7jQCVPSoWRj5oHU'
+const ADZUNA_ID = adzunaID
+const ADZUNA_KEY = adzunaKey
+const GOOGLE_KEY = googleKey
 const PROXY = 'https://sheltered-citadel-33560.herokuapp.com/'
 const defaultListings = [{
   title: 'Job Title',
